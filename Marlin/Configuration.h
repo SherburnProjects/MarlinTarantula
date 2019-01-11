@@ -28,13 +28,13 @@
 
 ***********************************************************************/
 
-#define PRINTER_NAME "TEVO Tarantula (EasyConfig)"  // Change this to whatever you wish, or leave it as it is.
+#define PRINTER_NAME "Sherburn Printer"  // Change this to whatever you wish, or leave it as it is.
                                                     // NOTE: Whatever you put here will have " Ready..." appended to it.
 
 /**
  * Equipment options
  */
-//#define LARGE_BED
+#define LARGE_BED
 #define SDSUPPORT
 //#define CHANGE_Y_DIRECTION        // If your bed homes in the wrong direction (it should move front to back) enable this.
 //#define CHANGE_X_DIRECTION        // If your X carriage homes in the wrong direction (it should move right to left) enable this.
@@ -80,7 +80,7 @@
  * If a Z-Probe type is selected, a Bed Leveling type other than MANUAL must be selected.
  */
 //#define BLTOUCH         // ANTClabs BLTouch sensor (might also work with clones)
-//#define SN04          // Green sensor
+#define SN04          // Green sensor - GMF
 //#define INDUCTIVE_NO  // Normally open inductive sensor
 //#define INDUCTIVE_NC  // Normally closed inductive sensor
 //#define SERVO_PROBE   // Endstop switch on rotating arm. Set servo angles!
@@ -92,9 +92,9 @@
  */
 //#define TRIPOINT
 //#define LINEAR
-//#define BILINEAR
+#define BILINEAR // GMF
 //#define UBL
-#define MANUAL
+//#define MANUAL // GMF
 
 /**
  * Z-Probe offset from nozzle (https://github.com/JimBrown/MarlinTarantula/wiki/How-to-determine-your-Z-Probe-offset)
@@ -102,8 +102,8 @@
  * If you have a dual nozzle the offsets are calculated from the primary nozzle (the one plugged in to E0)
  */
 #define SENSOR_LEFT        0
-#define SENSOR_RIGHT       0
-#define SENSOR_FRONT       0
+#define SENSOR_RIGHT       39 // GMF
+#define SENSOR_FRONT       45 // GMF
 #define SENSOR_BEHIND      0
 
 /**
