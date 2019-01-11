@@ -1269,7 +1269,7 @@
 // The size of the print bed
 #define X_BED_SIZE 200
 #if ENABLED(LARGE_BED)
-  #define Y_BED_SIZE 280
+  #define Y_BED_SIZE 250
 #else
   #define Y_BED_SIZE 200
 #endif
