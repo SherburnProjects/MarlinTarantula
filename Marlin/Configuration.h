@@ -28,7 +28,7 @@
 
 ***********************************************************************/
 
-#define PRINTER_NAME "Sherburn Printer"  // Change this to whatever you wish, or leave it as it is.
+#define PRINTER_NAME "It will work this time."  // Change this to whatever you wish, or leave it as it is.
                                                     // NOTE: Whatever you put here will have " Ready..." appended to it.
 
 /**
@@ -1269,7 +1269,7 @@
 // The size of the print bed
 #define X_BED_SIZE 200
 #if ENABLED(LARGE_BED)
-  #define Y_BED_SIZE 280
+  #define Y_BED_SIZE 250
 #else
   #define Y_BED_SIZE 200
 #endif
