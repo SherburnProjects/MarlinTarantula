@@ -102,8 +102,8 @@
  * If you have a dual nozzle the offsets are calculated from the primary nozzle (the one plugged in to E0)
  */
 #define SENSOR_LEFT        0
-#define SENSOR_RIGHT       39 // GMF
-#define SENSOR_FRONT       45 // GMF
+#define SENSOR_RIGHT       0 // GMF
+#define SENSOR_FRONT       0 // GMF
 #define SENSOR_BEHIND      0
 
 /**
@@ -1269,7 +1269,7 @@
 // The size of the print bed
 #define X_BED_SIZE 200
 #if ENABLED(LARGE_BED)
-  #define Y_BED_SIZE 250
+  #define Y_BED_SIZE 280
 #else
   #define Y_BED_SIZE 200
 #endif
